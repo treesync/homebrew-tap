@@ -6,28 +6,28 @@
 class Treesync < Formula
   desc "Sync your code folder across devices & agents — full-fidelity, E2E encrypted"
   homepage "https://treesync.dev"
-  version "0.1.0"
+  version "0.1.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/treesync/cli/releases/download/v0.1.0/treesync_0.1.0_darwin_arm64.tar.gz"
-      sha256 "1db60652a04c0ab1422a2393ab5f184ff12feec351ce7f62d0086321bdcb5f9d"
+      url "https://github.com/treesync/cli/releases/download/v0.1.1/treesync_0.1.1_darwin_arm64.tar.gz"
+      sha256 "cbc3827b84a9ed2779b7983b403e3f89343939e75a2da60f983b2d229d06ce4a"
     end
     on_intel do
-      url "https://github.com/treesync/cli/releases/download/v0.1.0/treesync_0.1.0_darwin_amd64.tar.gz"
-      sha256 "1fa475930b25b0f907bce1fd50a1a8e18ec083c3ab6c71d3a6ecce7d9987983f"
+      url "https://github.com/treesync/cli/releases/download/v0.1.1/treesync_0.1.1_darwin_amd64.tar.gz"
+      sha256 "c2dd5f28c81ba23c50a9094d856b781ae066d24c2853b3fc671363014362386c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/treesync/cli/releases/download/v0.1.0/treesync_0.1.0_linux_arm64.tar.gz"
-      sha256 "7b973b349e9be4235211c828042df9b294204fa407e9e0b24d9145b06fc74b78"
+      url "https://github.com/treesync/cli/releases/download/v0.1.1/treesync_0.1.1_linux_arm64.tar.gz"
+      sha256 "0041674305398bc78275d98b1fe3446e53d5e231840bce8ffa50e3863687c7a5"
     end
     on_intel do
-      url "https://github.com/treesync/cli/releases/download/v0.1.0/treesync_0.1.0_linux_amd64.tar.gz"
-      sha256 "cb8221cf1f456cd4d2c6e01ea7ab76783c3da9a2fee742668ff465b4fce08788"
+      url "https://github.com/treesync/cli/releases/download/v0.1.1/treesync_0.1.1_linux_amd64.tar.gz"
+      sha256 "4bf04d1f59dfb36443d896f60f1dcbbdb023e1cd349978f8634131df7dfdd625"
     end
   end
 
